@@ -33,7 +33,7 @@ def parse_input_and_solve(filename):
         previous_depth = num
     return number_of_increases
 
-    # But if you can, then there's a bunch of options now open to you:
+    # But if you can fit the whole file in memory, then there's a bunch of options now open to you:
     lines = file.readlines()
 
     # You could for instance validate the input first:
